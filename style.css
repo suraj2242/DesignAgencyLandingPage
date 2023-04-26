@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* Making 1rem==10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  margin: 0 8rem;
+}
+
+h1,
+h2,
+p {
+  margin: 1.6rem 0;
+}
+
+a {
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #000;
+}
+
+h1 {
+  font-size: 4.8rem;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #828282;
+  margin-bottom: 5rem;
+}
+
+button {
+  background-color: #5955b3;
+  color: #fff;
+  padding: 1.2rem 1.8rem;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 2rem;
+}
+
+span {
+  font-size: 4.8rem;
+  color: #5955b3;
+  font-weight: 600;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-left {
+  width: 40%;
+}
+.main-right {
+  width: 50%;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.logo img {
+  width: 13rem;
+}
+.tagline h1 {
+  width: 40rem;
+}
